@@ -83,3 +83,6 @@ remote: Compressing objects: 100% (238/238), done.
 remote: Total 284 (delta 28), reused 283 (delta 27)R
 Receiving objects: 94% (267/284), 644.00 KiB | 12.00 KiB/Receiving objects: 100% (284/284), 676.81 KiB | 12.00 KiB/s, done.
 Resolving deltas: 100% (28/28), done.
+
+
+see http://www.cnblogs.com/52fhy/p/3973887.html
