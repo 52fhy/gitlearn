@@ -74,7 +74,11 @@ Branch master set up to track remote branch master from origin.
 
 Admin@YJC-PC /d/phpsetup/www/git/fhyblog (master)
  
-如果完成到这里,恭喜你!你已经有了本地和远程版本库了。2、再次使用git以后本地版本库里有更新,使用 git add  添加,使用命令 git commit 提交。更新至远程使用命令 git push origin master 推送3、从远程更新至本地版本库要克隆一个仓库，首先必须知道仓库的地址，然后使用git clone命令克隆。
+如果完成到这里,恭喜你!你已经有了本地和远程版本库了。
+
+2、再次使用git以后本地版本库里有更新,使用 git add  添加,使用命令 git commit 提交。更新至远程使用命令 git push origin master 推送
+
+3、从远程更新至本地版本库要克隆一个仓库，首先必须知道仓库的地址，然后使用git clone命令克隆。
 $ git clone git@github.com:52fhy/fhyBlog.git
 Cloning into 'fhyBlog'...
 Enter passphrase for key '/c/Users/YJC/.ssh/id_rsa':
