@@ -177,8 +177,8 @@ Resolving deltas: 100% (28/28), done.
 
 本文仅是Git的基本使用,可以作为新手入门教程。更多Git相关操作，请参考：
 >1、[Git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000),极力推荐，尤其是新手。本文就参考了该教程。
-2、《Pro Git》一书,百度搜索吧;
-3、[Git官方教程](http://git-scm.com/doc)
+2、《Pro Git》一书,百度搜索吧；
+3、[Git官方教程](http://git-scm.com/doc)。
 
 本文在博客园（cnblogs）里也有博客，喜欢博客园的朋友请移步[Git使用笔记- 博客园](http://www.cnblogs.com/52fhy/p/3973887.html#3086891)。
 
