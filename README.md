@@ -22,4 +22,4 @@ Thank you!
 
 2014-9-18 8:53:40 By jiancaigege.
 
-[欢迎阅读](Git使用笔记.md)
+欢迎阅读[Git使用笔记](Git使用笔记.md)
