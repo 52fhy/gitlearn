@@ -1,25 +1,8 @@
-gitlearn
-========
 
-Just a git for learning!
+##Git学习笔记
+
+介绍：
+这是初次学习git的一些笔记，可以帮助新手快速入门。
 
 
-If you want to try  pulling your repository to here,
-
-just 'Fork' first ,and use 'git clone git@github.com:52fhy/gitlearn.git' 
-
-clone to your computer.
-
-When you modified or add something , 
-
-you can use 'git push origin master' to your github repository.
-
-Then send 'pull request'.
-
-If I have time ,I will agree.
-
-Thank you!
-
-2014-9-18 8:53:40 By jiancaigege.
-
-欢迎阅读[Git使用笔记](Git使用笔记.md)
+欢迎阅读[Git学习笔记](Git使用笔记.md)
