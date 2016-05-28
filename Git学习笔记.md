@@ -269,8 +269,10 @@ Resolving deltas: 100% (28/28), done.
 参考文档：
 >1、Git 使用及原理 总结 - 人间奇迹 - 博客园
 http://www.cnblogs.com/yaozhongxiao/p/3794963.html 
+<br/>
 2、learngit/git学习笔记.md at master · michaelliao/learngit · GitHub
 https://github.com/michaelliao/learngit/blob/master/Git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md 
+<br/>
 3、Git远程操作详解 - 阮一峰的网络日志
 http://www.ruanyifeng.com/blog/2014/06/git_remote.html
 
