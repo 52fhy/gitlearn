@@ -30,6 +30,9 @@ vim ~/.ssh/authorized_keys
 ```
 复制每个人的公钥到`~/.ssh/authorized_keys`即可。
 
+提示：
+>使用`ssh-keygen -t rsa -C "youremail@example.com"`生成公钥。
+
 然后就可以免密码git clone啦：
 
 ```
