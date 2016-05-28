@@ -2,7 +2,7 @@
 
 ---
 
-
+说明：本文是在https://github.com/michaelliao/learngit的基础上进行整理补充的。
 
 ### 1. 工作区和版本库
 ![工作区和版本库](img/01.jpeg)
@@ -169,6 +169,21 @@ git pull完整命令格式：
 ### 8. 分支管理
 
 `master`分支是一条线，git用`master`指向最新的提交，在用`HEAD`指向`master`，以此才确定当前分支，和提交点。
+
+master分支：
+![master](img/master.png)
+
+创建分支：
+![commitAtNewBranch](img/commitAtNewBranch.png)
+
+新分支的修改和提交：
+![newBranch](img/newBranch.png)
+
+分支的合并：
+![merge](img/merge.png)
+
+合并完成删除分支：
+![masterBranch](img/masterBranch.png)
 
 >分支在实际中有什么用呢？假设你准备开发一个新功能，但是需要两周才能完成，第一周你写了50%的代码，如果立刻提交，由于代码还没写完，不完整的代码库会导致别人不能干活了。如果等代码全部写完再一次提交，又存在丢失每天进度的巨大风险。
 
