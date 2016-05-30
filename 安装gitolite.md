@@ -1,8 +1,15 @@
-# 安装gitolite
+# 安装gitolite管理git服务器
 
 ---
 
-## 安装
+## 为什么安装gitolite
+git默认使用SSH协议，在服务器上基本上不用怎么配置就能直接使用。但是如果面向团队服务，需要控制权限的话，还是用gitolite方便些。
+
+## gitosis OR gitolite？
+为什么不用gitosis呢？原因很简单，它已经好几年没有更新了。
+gitolite原本是作为gitosis的lite版本出现的，可是现在的功能甚至已经超过gitosis了。
+
+## 安装gitolite
 
 建立git用户：
 ```
