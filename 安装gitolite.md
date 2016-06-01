@@ -46,7 +46,15 @@ gitolite/install -to ~/bin
 ```
 
 默认这个52fhy是管理员。如果没有提示错误，就安装好了。
-该过程会自动新建`~/.ssh/authorized_keys`（如果不存在）。
+该过程会自动新建`~/.ssh/authorized_keys`（如果不存在）:
+``` shell
+Initialized empty Git repository in /home/git/repositories/gitolite-admin.git/
+Initialized empty Git repository in /home/git/repositories/testing.git/
+WARNING: /home/git/.ssh missing; creating a new one
+    (this is normal on a brand new install)
+WARNING: /home/git/.ssh/authorized_keys missing; creating a new one
+    (this is normal on a brand new install)
+```
 
 
 ## 管理用户和版本库
