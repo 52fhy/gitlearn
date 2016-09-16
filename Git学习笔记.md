@@ -6,12 +6,42 @@
 
 [TOC]
 
-git是分布式版本管理工具。Git可以在Linux、Unix、Mac和Windows这几大平台上正常运行。git不区分服务端和客户端，也就意味着，当你安装好了git，客户端和服务端都有了。
+git是分布式版本管理工具。Git可以在Linux、Unix、Mac和Windows这几大平台上正常运行。git不区分服务端和客户端，也就意味着，当你安装好了git，客户端和服务端都有了。  
 
-本文以github为例讲解如何使用git。
+本文以github为例讲解如何使用git。  
+
+## 如何在公司快速使用git协作
+如果之前没有接触过git，公司里使用git协作，为了快速能用起git，你不用去学git，只要会下面的命令即可。
 
 
-## 第一次使用git及github
+需要克隆项目：
+```
+git clone git@github.com:52fhy/gitlearn.git
+```
+记得替换成实际的项目路径。  
+
+之后每天只要使用下面4条命令即可：  
+```
+git add .
+git commit -m "备注"
+git pull 
+git push
+```
+记住顺序不能乱，pull之前先提交本地到版本库，防止被拉下来的代码覆盖；提交之前先拉线上的代码下来进行合并，防止冲突。  
+
+pull拉取线上代码到本地并执行合并，相当于执行了`git fetch;git merge`；
+push推送本地(默认是master分支)到线上并合并，注意观察是否有冲突。有冲突必须手动修改，再从头执行一遍。
+
+每天基本上就上面4条命令就足够了。  
+
+如果第一次你还没有ssh公钥，现象就是你克隆不了，没有权限。如果本地的用户目录下面没有`.ssh`目录没有
+`id_rsa.pub`公钥文件，需要新建公钥私钥：
+```
+$ ssh-keygen -t rsa -C "youremail@example.com"
+```
+接下来一路回车即可。
+
+## 第一次使用github
 
 1)github注册账号，做远程仓库使用。网址：https://github.com/
 使用邮箱注册账号
@@ -175,6 +205,11 @@ create mode 100644 "\345\215\207\347\272\247\346\227\245\345\277\227.txt"
 
 12)更新至远程(Github):
 
+查看远程库：
+```
+$ git remote -v
+```
+
 要关联一个远程库，使用命令 
 ```
 $ git remote add origin git@github.com:yourname/yourgit.git 
@@ -226,6 +261,11 @@ Admin@YJC-PC /d/phpsetup/www/git/fhyblog (master)
 >不带任何参数的git push，默认只推送当前分支，这叫做simple方式。此外，还有一种matching方式，会推送所有有对应的远程分支的本地分支。Git 2.0版本之前，默认采用matching方法，现在改为默认采用simple方式。如果要修改这个设置，可以采用git config命令。
 
 `master`其实是一个`refspec`，正常的`refspec`的形式为`+<src>:<dst>`，冒号前表示`local branch`的名字，冒号后表示`remote repository`下 `branch`的名字。注意，如果你省略了`<dst>`，git就认为你想push到remote repository下和local branch相同名字的branch。
+
+删除远程库：
+```
+$ git rm git@github.com:yourname/yourgit.git 
+```
 
 
 ## 再次使用git
