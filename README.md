@@ -12,6 +12,9 @@
 - [Git命令汇总](Git命令汇总.md)
 - [Git配置](Git配置.md)
 - [搭建git服务器](搭建git服务器.md)
+- [安装gitolite](安装gitolite.md)
+- [Github fork后同步源项目](Github fork后同步源项目.md)
+- [常见问题](常见问题.md)
 
 
 ## 开始阅读
