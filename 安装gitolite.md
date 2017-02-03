@@ -113,8 +113,8 @@ repo bar/test2
     R           =   carol
 此时foo 版本库的访问地址为 git@host:bar/test2。
 
->参考：
-1、安装gitolite | zrong's blog 
-http://zengrong.net/post/1720.htm/ 
-2、gitolite的README译文 – Linux大棚 
+>参考：  
+1、安装gitolite | zrong's blog   
+http://zengrong.net/post/1720.htm/   
+2、gitolite的README译文 – Linux大棚   
 http://roclinux.cn/?p=2553
