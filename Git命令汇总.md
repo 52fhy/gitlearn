@@ -290,9 +290,11 @@ git pull <远程主机名> <远程分支名>:<本地分支名>
 git clone的时候，所有本地分支默认与远程主机的同名分支，建立追踪关系，也就是说，本地的master分支自动"追踪"origin/master分支。
 Git也允许手动建立追踪关系。
 ```
-git branch --set-upstream master origin/next
+git branch --set-upstream-to=master origin/next
 ```
-上面命令指定master分支追踪origin/next分支。
+上面命令指定远程master分支追踪本地origin/next分支。
+注：`--set-upstream`参数已废弃，已替换为`--set-upstream-to`。
+
 如果当前分支与远程分支存在追踪关系，git pull就可以省略远程分支名。
 ```
 $ git pull origin
