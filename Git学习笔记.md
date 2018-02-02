@@ -297,6 +297,25 @@ Receiving objects: 94% (267/284), 644.00 KiB | 12.00 KiB/
 Receiving objects: 100% (284/284), 676.81 KiB | 12.00 KiB/s, done.
 Resolving deltas: 100% (28/28), done.
 ```
+
+## git别名
+
+git可以配置别名，这样不用担心记不住命令了。
+
+很多人都用co表示checkout，ci表示commit，br表示branch：
+
+``` bash
+$ git config --global alias.co checkout
+$ git config --global alias.ci commit
+$ git config --global alias.br branch
+```
+
+有人丧心病狂地把lg配置成了：
+``` bash
+git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+```
+使用`git lg`看看效果吧！
+
  
 
 ## 写在后面
