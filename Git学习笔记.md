@@ -298,6 +298,14 @@ Receiving objects: 100% (284/284), 676.81 KiB | 12.00 KiB/s, done.
 Resolving deltas: 100% (28/28), done.
 ```
 
+其他：
+
+忽略 .gitignore 已经跟踪的目录，如 dir/ ：
+
+``` bash
+git rm -r --cached dir
+```
+
 ## git别名
 
 git可以配置别名，这样不用担心记不住命令了。
