@@ -396,6 +396,18 @@ $ git tag -d v0.9
 $ git push origin :refs/tags/v0.9
 ``` 
 
+### 12.删除分支
+
+删除本地
+```
+git branch -D test
+```
+
+删除远程
+```
+git push origin --delete test
+```
+
 >参考：
 Git远程操作详解 - 阮一峰的网络日志
 http://www.ruanyifeng.com/blog/2014/06/git_remote.html
